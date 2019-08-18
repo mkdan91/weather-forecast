@@ -1,0 +1,18 @@
+$white: hsl(0, 0%, 100%);
+$blue-dark: #0f1d74;
+$blue-semi-dark: #0122ab;
+$blue-royal-dark: #1b5bcd;
+$blue-royal-semi: #3c7fde;
+$blue-royal-light: #64a9ec;
+$blue-light: #c6e8ff;
+$blue-dark-clear: hsla(239, 67%, 16%, 0.184);
+$white-clear: hsla(0, 0%, 100%, 0.145);
+$cover: linear-gradient(
+  23deg,
+  $blue-dark 0%,
+  $blue-semi-dark 44%,
+  $blue-royal-dark 61%,
+  $blue-royal-semi 71%,
+  $blue-royal-light 84%,
+  $blue-light 100%
+);

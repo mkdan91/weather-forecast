@@ -1,0 +1,153 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "curly": [
+      "error",
+      "multi-line",
+      "consistent"
+    ],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 2
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ],
+    "eqeqeq": [
+      "error",
+      "always",
+      {
+        "null": "never"
+      }
+    ],
+    "no-loop-func": "error",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "semi-spacing": "error",
+    "prefer-const": "error",
+    "rest-spread-spacing": "error",
+    "prefer-rest-params": "error",
+    "prefer-spread": "error",
+    "space-before-blocks": "error",
+    "prefer-promise-reject-errors": "error",
+    "space-in-parens": "error",
+    "space-unary-ops": "error",
+    "template-curly-spacing": "error",
+    "no-magic-numbers": 0,
+    "no-tabs": [
+      "error",
+      {
+        "allowIndentationTabs": true
+      }
+    ],
+    "no-useless-concat": "error",
+    "no-useless-computed-key": "error",
+    "array-callback-return": "error",
+    "callback-return": [
+      "error"
+    ],
+    "valid-typeof": "error",
+    "yoda": [
+      "error",
+      "never",
+      {
+        "exceptRange": true
+      }
+    ],
+    "object-property-newline": [
+      "error",
+      {
+        "allowAllPropertiesOnSameLine": true
+      }
+    ],
+    "padded-blocks": [
+      "error",
+      "never"
+    ],
+    "no-useless-escape": "error",
+    "no-unsafe-negation": "error",
+    "no-unreachable": "error",
+    "no-unneeded-ternary": "error",
+    "no-undef-init": "error",
+    "no-trailing-spaces": "error",
+    "no-template-curly-in-string": "error",
+    "no-return-assign": "error",
+    "no-redeclare": "error",
+    "no-multi-str": "error",
+    "no-multi-spaces": "error",
+    "no-invalid-regexp": "error",
+    "no-fallthrough": "error",
+    "no-extra-parens": "error",
+    "no-mixed-operators": 0,
+    "no-const-assign": "error",
+    "no-multiple-empty-lines": "error",
+    "no-array-constructor": "error",
+    "comma-style": [
+      "error",
+      "last"
+    ],
+    "camelcase": "error",
+    "handle-callback-err": "error",
+    "comma-spacing": "error",
+    "space-infix-ops": "error",
+    "no-console": 0,
+    "no-unused-vars": 0,
+    "react/destructuring-assignment": [
+      "error",
+      "always",
+      {
+        "ignoreClassFields": true
+      }
+    ],
+    "react/jsx-filename-extension": 0,
+    "react/forbid-prop-types": 0,
+    "react/require-default-props": 0,
+    "react/jsx-closing-bracket-location": [
+      "error",
+      {
+        "selfClosing": "line-aligned",
+        "nonEmpty": "after-props"
+      }
+    ],
+    "react/jsx-first-prop-new-line": [
+      2,
+      "multiline"
+    ],
+    "react/jsx-max-props-per-line": [
+      2,
+      {
+        "maximum": 1,
+        "when": "multiline"
+      }
+    ],
+    "react/jsx-one-expression-per-line": 0,
+    "react/prop-types": 0,
+    "react/jsx-indent": [
+      "error",
+      2
+    ]
+  }
+}
